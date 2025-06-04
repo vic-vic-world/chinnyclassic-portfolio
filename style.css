@@ -1,0 +1,166 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #FFEAA7;
+  color: #2d3436;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #6C5CE7;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+ box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+ text-shadow: 2px 9px  rgba(0, 0, 0, 0.7);
+}
+
+#watchword {
+  font-style: italic;
+  font-size: 1rem;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  min-height: 80vh;
+}
+
+/* Left Sidebar */
+#leftsidebar {
+  width: 200px;
+  background-color: #00CEC9;
+  padding: 1rem;
+  transition: all 0.3s ease;
+
+}
+
+#leftsidebar {
+  width: 200px;
+  background-color: #00CEC9;
+  padding: 1rem;
+}
+
+#leftsidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#leftsidebar li {
+  margin: 1rem 0;
+}
+
+#leftsidebar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#leftsidebar a:hover {
+  text-decoration: underline;
+}
+
+/* Right Sidebar */
+#rightsidebar {
+  width: 200px;
+  background-color: #00CEC9;
+  padding: 1rem;
+}
+
+#rightsidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#rightsidebar li {
+  margin: 1rem 0;
+}
+
+#rightsidebar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#rightsidebar a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main#content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+h2 {
+    text-align: center;
+}
+
+.description {
+  text-align: center;
+    margin-top: 0.2rem;
+}
+
+h2, h3 {
+  color: #6C5CE7;
+  margin-bottom: 1rem;
+}
+
+/* Featured Work */
+.featured {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.project-card {
+  background-color: #FFEAA7;
+  border: 2px solid #6C5CE7;
+  padding: 1rem;
+  border-radius: 8px;
+  flex: 1 1 250px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Testimonials */
+.testimonials blockquote {
+  background: #f1f2f6;
+  border-left: 4px solid #00CEC9;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+  background-color: #6C5CE7;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer a {
+  color: #FFEAA7;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
