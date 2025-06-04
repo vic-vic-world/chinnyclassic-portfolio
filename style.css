@@ -114,11 +114,16 @@ h2 {
 .description {
   text-align: center;
     margin-top: 0.2rem;
+    font-style: italic;
 }
 
 h2, h3 {
   color: #6C5CE7;
   margin-bottom: 1rem;
+}
+
+h3 {
+margin-top: 3rem;
 }
 
 /* Featured Work */
