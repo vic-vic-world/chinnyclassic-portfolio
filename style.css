@@ -164,3 +164,53 @@ h2, h3 {
 .footer a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  #leftsidebar,
+  #rightsidebar {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  #leftsidebar li,
+  #rightsidebar li {
+    display: inline-block;
+    margin: 0.5rem 1rem;
+  }
+
+  #leftsidebar a,
+  #rightsidebar a {
+    font-size: 1rem;
+  }
+
+  main#content {
+    padding: 1rem;
+  }
+
+  .featured {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .project-card {
+    flex: 1 1 100%;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  #watchword {
+    font-size: 0.9rem;
+  }
+
+  .footer {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+}
