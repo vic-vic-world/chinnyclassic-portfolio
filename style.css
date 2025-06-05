@@ -159,7 +159,7 @@ margin-top: 3rem;
   border-radius: 8px;
   flex: 1 1 300px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.7);
-  max-width: 300%;
+  max-width: 30%;
   overflow: hidden;
   transition: transform 0.3s ease;
 }
@@ -175,7 +175,6 @@ margin-top: 3rem;
   display: block;
   box-shadow: 0 4px 6px rgba(0,0,0,0.7);
   transition: transform 0.4s ease, filter 0.3s ease;
-  
 }
 
 /* Hover Effect */
