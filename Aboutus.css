@@ -27,6 +27,17 @@ body, html {
   line-height: 1.8;
 }
 
+.Address {
+  color: blue;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+   'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 .footer {
     background-color: #6C5CE7;
   color: #2d3436;
